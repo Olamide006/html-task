@@ -4,9 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Card</title>
 </head>
+<style>
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.container{
+border: 1px solid black;
+border-radius: 12px;
+width: 270px;
+padding: 12px;
+}
+.interface{
+    border-bottom: 1px dotted black;
+}
+
+button{
+    border-radius: 20px;
+    padding: 12px 32px;
+    background-color: white;
+}
+ul{
+    list-style:none ;
+}
+ul li::before{
+    content: "<i class="fa-regular fa-check"></i>";
+}
+</style>
+
 <body>
-   <h1>check</h1>
+    <section class="container">
+        <div>
+        <p>Free</p>
+        <p>For individual or very small 
+            <br> teams just getting started
+            <br> with Air table</p>
+    <br>
+    <br>
+    <h1>Free</h1>
+    <button> Choose free</button>
+  <br>
+  <br>
+   <div class="list">
+    <p>Free includes:</p>
+      <ul>
+            <li>Unlimited bases</li>
+            <li>Up to 5 creators or editors</li>
+            <li>Unlimited commenter & read-only users</li>
+            <li><span class="interface">Interface Designer</span></li>
+      <li>1 <span class="interface">extension</span> per base</li>
+            <li>1 sync imtegration</li>
+<li>1,200 records per base</li>
+<li>2GB of attachments per base</li>
+
+        </ul>
+  </div>
+</section>
 </body>
 </html>
